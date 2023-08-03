@@ -308,6 +308,12 @@ display: none;
   .thumbnail{
     margin: auto;
   }
+    .contact{
+    height: auto
+  }
+  .card{
+    height: auto
+  }
 };
 
     
