@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+/* Navbar---------------------------------------------------- */
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 34%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+    
+}
+.navlist{
+width: 70%;
+display: flex;
+align-items: center;
+}
+.navlist li{
+list-style: none;
+padding: 25px 30px;
+}
+.navlist li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-family: 'Ubuntu', sans-serif;
+}
+.navlist li a:hover{
+    cursor: pointer;
+    color: gray;
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.7) url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/640px-Dubai_Marina_Skyline.jpg');
+    background-size: cover ;
+    background-blend-mode: darken;
+}
+
+/* Home---------------------------------------------------------------------------- */
+
+.firstsection{
+    height: 100vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 85%;
+}
+.firsthalf{
+width: 200%;
+justify-content: center;
+align-items: center;
+}
+.textbig{
+font-size: 40px;
+text-align: center;
+justify-content: center;
+}
+.textsmall{
+    font-size: 20px;
+}
+.btn{
+    padding: 6px 10px;
+    margin: 7px 3px;
+    border: 2p solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+   
+}
+.button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 194px;
+}
+.btn-dark{
+    color: white;
+    border: 2px solid black;
+    background-color: rgb(53, 53, 150);
+
+}
+.btn-dark:hover{
+    color: gray;
+    
+}
+
+/* About------------------------------------------------------------ */
+
+.secright{
+    width: 896px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 20px 0;
+   
+}
+
+.thumbnail{
+    width: 250px;
+}
+.secleft{
+    width: 896px;
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    flex-direction: row-reverse;
+    margin: auto;
+    flex-direction: row-reverse;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+   
+}
+
+/* Course------------------------------------------------------------------- */
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+*{
+    box-sizing: border-box;
+}
+.card{
+    background: white;
+    width: 305px;
+    height: 400px;
+    margin: 10px;
+}
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+}
+.image1{
+    background-image: url('https://media.istockphoto.com/id/1393379238/photo/work-performance-is-influenced-by-skills-abilities-and-competence-the-concept-of-the.webp?b=1&s=170667a&w=0&k=20&c=d0GkROVP2_iWdPoqlERy12O1mZRG6dQ6iiERVQsAhk8=');
+}
+.image2{
+    background-image: url('https://media.istockphoto.com/id/1393379238/photo/work-performance-is-influenced-by-skills-abilities-and-competence-the-concept-of-the.webp?b=1&s=170667a&w=0&k=20&c=d0GkROVP2_iWdPoqlERy12O1mZRG6dQ6iiERVQsAhk8=');
+}
+.image3{
+    background-image: url('https://media.istockphoto.com/id/1393379238/photo/work-performance-is-influenced-by-skills-abilities-and-competence-the-concept-of-the.webp?b=1&s=170667a&w=0&k=20&c=d0GkROVP2_iWdPoqlERy12O1mZRG6dQ6iiERVQsAhk8=');
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color:#3a3030;;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin:20px 50px;
+}
+.card:hover{
+    background: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.heading{
+    padding: 14px 40vw;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Contact------------------------------------------------------------ */
+
+.contact{
+    background-color: aliceblue;
+    height: 720px;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    max-width:62%;
+    margin: 10px auto;
+}
+.form-input{
+    margin: 18px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.burger{
+display: none;
+ position: absolute;
+ cursor: pointer;
+ right: 5%;
+ top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+/* Making responsive----------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 1130px){
+  .navlist{
+    flex-direction: column
+  }
+  .navbar{
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+    height: 447px;
+  }
+  .rightnav{
+    text-align: center
+  }
+  .boxmain{
+    max-width: 100%;
+    
+  }
+  #search{
+    width: 100%
+  }
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 72px
+  }
+  .v-class-resp{
+    opacity: 0;
+  }
+  .secright{
+    flex-direction: column-reverse
+  }
+  .textbig{
+    text-align: center
+  }
+  .textsmall{
+    text-align: center
+  }
+  .button{
+    text-align: center
+  }
+  .imagefluid{
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+  }
+  .paras{
+    padding: 0px
+  }
+  .thumbnail{
+    margin: auto;
+  }
+};
+
+    
