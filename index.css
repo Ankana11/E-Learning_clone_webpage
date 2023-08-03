@@ -200,13 +200,7 @@ font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     margin:20px 50px;
 }
-.card:hover{
-    background: rgb(62, 62, 62);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
+
 .heading{
     padding: 14px 40vw;
     font-size: 40px;
